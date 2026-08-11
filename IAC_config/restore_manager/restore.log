@@ -1,0 +1,18 @@
+[2026-08-09 08:26:16] ==========================================
+[2026-08-09 08:26:16] Starting interactive PostgreSQL restore
+[2026-08-09 08:26:26] Selected backup: nigerian_economic_data_2026-08-08_12-26-28.sql.gz
+[2026-08-09 08:26:26] Downloading backup from S3: s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-08_12-26-28.sql.gz
+[2026-08-09 08:26:27] Backup downloaded successfully.
+[2026-08-09 08:26:27] Downloaded backup size: 4.0K
+[2026-08-09 08:26:27] Creating database: nigerian_economic_data
+[2026-08-09 08:26:27] Database created successfully.
+[2026-08-09 08:26:27] Starting database restoration.
+[2026-08-09 08:26:27] Database restored successfully.
+[2026-08-09 08:26:27] Number of restored tables: 3
+[2026-08-09 08:26:27] Restore completed successfully.
+[2026-08-09 08:26:27] Database: nigerian_economic_data
+[2026-08-09 08:26:27] Backup restored: nigerian_economic_data_2026-08-08_12-26-28.sql.gz
+[2026-08-09 08:26:27] ==========================================
+[2026-08-10 10:55:46] ==========================================
+[2026-08-10 10:55:46] Starting interactive PostgreSQL restore
+

@@ -1,0 +1,227 @@
+[2026-08-08 12:26:28] ==========================================
+[2026-08-08 12:26:28] Starting PostgreSQL backup
+[2026-08-08 12:26:28] Database: nigerian_economic_data
+[2026-08-08 12:26:28] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-08_12-26-28.sql.gz
+[2026-08-08 12:26:28] PostgreSQL backup completed successfully.
+[2026-08-08 12:26:28] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-08_12-26-28.sql.gz
+[2026-08-08 12:26:28] Backup size: 4.0K
+[2026-08-08 12:26:28] Uploading backup to S3...
+[2026-08-08 12:26:29] Backup uploaded successfully to S3.
+[2026-08-08 12:26:29] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-08 12:26:29] Uploading backup log to S3...
+[2026-08-08 12:26:31] Backup log uploaded successfully to S3.
+[2026-08-08 12:26:31] Backup process completed successfully.
+[2026-08-08 12:26:31] ==========================================
+0: command not found
+[2026-08-10 12:00:02] ==========================================
+[2026-08-10 12:00:02] Starting PostgreSQL backup
+[2026-08-10 12:00:02] Database: nigerian_economic_data
+[2026-08-10 12:00:02] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_12-00-02.sql.gz
+[2026-08-10 12:00:02] PostgreSQL backup completed successfully.
+[2026-08-10 12:00:02] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_12-00-02.sql.gz
+[2026-08-10 12:00:02] Backup size: 4.0K
+[2026-08-10 12:00:02] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (12.4 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-10_12-00-02.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-10_12-00-02.sql.gz
+[2026-08-10 12:00:04] Backup uploaded successfully to S3.
+[2026-08-10 12:00:04] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-10 12:00:04] Uploading backup log to S3...
+Completed 1.9 KiB/1.9 KiB (23.9 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-10 12:00:05] Backup log uploaded successfully to S3.
+[2026-08-10 12:00:05] Backup process completed successfully.
+[2026-08-10 12:00:05] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_12-00-02.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-10 15:00:02] ==========================================
+[2026-08-10 15:00:02] Starting PostgreSQL backup
+[2026-08-10 15:00:02] Database: nigerian_economic_data
+[2026-08-10 15:00:02] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_15-00-02.sql.gz
+[2026-08-10 15:00:02] PostgreSQL backup completed successfully.
+[2026-08-10 15:00:02] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_15-00-02.sql.gz
+[2026-08-10 15:00:02] Backup size: 4.0K
+[2026-08-10 15:00:02] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (16.5 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-10_15-00-02.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-10_15-00-02.sql.gz
+[2026-08-10 15:00:03] Backup uploaded successfully to S3.
+[2026-08-10 15:00:03] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-10 15:00:03] Uploading backup log to S3...
+Completed 3.7 KiB/3.7 KiB (44.8 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-10 15:00:04] Backup log uploaded successfully to S3.
+[2026-08-10 15:00:04] Backup process completed successfully.
+[2026-08-10 15:00:04] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_15-00-02.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-10 18:00:01] ==========================================
+[2026-08-10 18:00:01] Starting PostgreSQL backup
+[2026-08-10 18:00:01] Database: nigerian_economic_data
+[2026-08-10 18:00:01] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_18-00-01.sql.gz
+[2026-08-10 18:00:01] PostgreSQL backup completed successfully.
+[2026-08-10 18:00:01] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_18-00-01.sql.gz
+[2026-08-10 18:00:01] Backup size: 4.0K
+[2026-08-10 18:00:01] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (15.7 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-10_18-00-01.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-10_18-00-01.sql.gz
+[2026-08-10 18:00:03] Backup uploaded successfully to S3.
+[2026-08-10 18:00:03] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-10 18:00:03] Uploading backup log to S3...
+Completed 5.5 KiB/5.5 KiB (55.7 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-10 18:00:04] Backup log uploaded successfully to S3.
+[2026-08-10 18:00:04] Backup process completed successfully.
+[2026-08-10 18:00:04] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_18-00-01.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-10 21:00:01] ==========================================
+[2026-08-10 21:00:01] Starting PostgreSQL backup
+[2026-08-10 21:00:01] Database: nigerian_economic_data
+[2026-08-10 21:00:01] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_21-00-01.sql.gz
+[2026-08-10 21:00:02] PostgreSQL backup completed successfully.
+[2026-08-10 21:00:02] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_21-00-01.sql.gz
+[2026-08-10 21:00:02] Backup size: 4.0K
+[2026-08-10 21:00:02] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (14.0 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-10_21-00-01.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-10_21-00-01.sql.gz
+[2026-08-10 21:00:03] Backup uploaded successfully to S3.
+[2026-08-10 21:00:03] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-10 21:00:03] Uploading backup log to S3...
+Completed 7.2 KiB/7.2 KiB (78.3 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-10 21:00:04] Backup log uploaded successfully to S3.
+[2026-08-10 21:00:04] Backup process completed successfully.
+[2026-08-10 21:00:04] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-10_21-00-01.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-11 00:00:01] ==========================================
+[2026-08-11 00:00:01] Starting PostgreSQL backup
+[2026-08-11 00:00:01] Database: nigerian_economic_data
+[2026-08-11 00:00:01] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_00-00-01.sql.gz
+[2026-08-11 00:00:01] PostgreSQL backup completed successfully.
+[2026-08-11 00:00:01] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_00-00-01.sql.gz
+[2026-08-11 00:00:01] Backup size: 4.0K
+[2026-08-11 00:00:01] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (15.6 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-11_00-00-01.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-11_00-00-01.sql.gz
+[2026-08-11 00:00:03] Backup uploaded successfully to S3.
+[2026-08-11 00:00:03] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-11 00:00:03] Uploading backup log to S3...
+Completed 9.0 KiB/9.0 KiB (75.1 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-11 00:00:04] Backup log uploaded successfully to S3.
+[2026-08-11 00:00:04] Backup process completed successfully.
+[2026-08-11 00:00:04] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_00-00-01.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-11 03:00:01] ==========================================
+[2026-08-11 03:00:01] Starting PostgreSQL backup
+[2026-08-11 03:00:01] Database: nigerian_economic_data
+[2026-08-11 03:00:01] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_03-00-01.sql.gz
+[2026-08-11 03:00:02] PostgreSQL backup completed successfully.
+[2026-08-11 03:00:02] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_03-00-01.sql.gz
+[2026-08-11 03:00:02] Backup size: 4.0K
+[2026-08-11 03:00:02] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (16.7 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-11_03-00-01.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-11_03-00-01.sql.gz
+[2026-08-11 03:00:03] Backup uploaded successfully to S3.
+[2026-08-11 03:00:03] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-11 03:00:03] Uploading backup log to S3...
+Completed 10.8 KiB/10.8 KiB (118.4 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-11 03:00:04] Backup log uploaded successfully to S3.
+[2026-08-11 03:00:04] Backup process completed successfully.
+[2026-08-11 03:00:04] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_03-00-01.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-11 06:00:02] ==========================================
+[2026-08-11 06:00:02] Starting PostgreSQL backup
+[2026-08-11 06:00:02] Database: nigerian_economic_data
+[2026-08-11 06:00:02] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_06-00-01.sql.gz
+[2026-08-11 06:00:02] PostgreSQL backup completed successfully.
+[2026-08-11 06:00:02] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_06-00-01.sql.gz
+[2026-08-11 06:00:02] Backup size: 4.0K
+[2026-08-11 06:00:02] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (12.9 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-11_06-00-01.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-11_06-00-01.sql.gz
+[2026-08-11 06:00:04] Backup uploaded successfully to S3.
+[2026-08-11 06:00:04] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-11 06:00:04] Uploading backup log to S3...
+Completed 12.5 KiB/12.5 KiB (151.4 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-11 06:00:05] Backup log uploaded successfully to S3.
+[2026-08-11 06:00:05] Backup process completed successfully.
+[2026-08-11 06:00:05] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_06-00-01.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-11 09:00:01] ==========================================
+[2026-08-11 09:00:01] Starting PostgreSQL backup
+[2026-08-11 09:00:01] Database: nigerian_economic_data
+[2026-08-11 09:00:01] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_09-00-01.sql.gz
+[2026-08-11 09:00:02] PostgreSQL backup completed successfully.
+[2026-08-11 09:00:02] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_09-00-01.sql.gz
+[2026-08-11 09:00:02] Backup size: 4.0K
+[2026-08-11 09:00:02] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (9.9 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-11_09-00-01.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-11_09-00-01.sql.gz
+[2026-08-11 09:00:05] Backup uploaded successfully to S3.
+[2026-08-11 09:00:05] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-11 09:00:05] Uploading backup log to S3...
+Completed 14.3 KiB/14.3 KiB (130.4 KiB/s) with 1 file(s) remainingupload: Automated_Backups/backup.log to s3://godfrey-postgres-backups-2026/Automated_Backups/backup.log
+[2026-08-11 09:00:07] Backup log uploaded successfully to S3.
+[2026-08-11 09:00:07] Backup process completed successfully.
+[2026-08-11 09:00:07] ==========================================
+==========================================
+BACKUP COMPLETED SUCCESSFULLY
+==========================================
+Database:       nigerian_economic_data
+Local backup:   /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_09-00-01.sql.gz
+Backup size:    4.0K
+S3 location:    s3://godfrey-postgres-backups-2026/Automated_Backups/
+Local log:      /home/ubuntu/Automated_Backups/backup.log
+==========================================
+[2026-08-11 12:00:01] ==========================================
+[2026-08-11 12:00:01] Starting PostgreSQL backup
+[2026-08-11 12:00:01] Database: nigerian_economic_data
+[2026-08-11 12:00:01] Backup file: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_12-00-01.sql.gz
+[2026-08-11 12:00:02] PostgreSQL backup completed successfully.
+[2026-08-11 12:00:02] Backup saved locally: /home/ubuntu/Automated_Backups/nigerian_economic_data_2026-08-11_12-00-01.sql.gz
+[2026-08-11 12:00:02] Backup size: 4.0K
+[2026-08-11 12:00:02] Uploading backup to S3...
+Completed 1.4 KiB/1.4 KiB (12.8 KiB/s) with 1 file(s) remainingupload: Automated_Backups/nigerian_economic_data_2026-08-11_12-00-01.sql.gz to s3://godfrey-postgres-backups-2026/Automated_Backups/nigerian_economic_data_2026-08-11_12-00-01.sql.gz
+[2026-08-11 12:00:05] Backup uploaded successfully to S3.
+[2026-08-11 12:00:05] S3 location: s3://godfrey-postgres-backups-2026/Automated_Backups/
+[2026-08-11 12:00:05] Uploading backup log to S3...

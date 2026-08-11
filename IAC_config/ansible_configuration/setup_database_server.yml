@@ -1,0 +1,69 @@
+---
+- name: Configure PostgreSQL and AWS CLI
+  hosts: database
+  become: true
+
+  vars:
+    aws_region: "eu-north-1"
+
+  tasks:
+
+    - name: Update apt package cache
+      apt:
+        update_cache: true
+        cache_valid_time: 3600
+
+    - name: Install PostgreSQL
+      apt:
+        name: postgresql
+        state: present
+
+    - name: Enable and start PostgreSQL
+      systemd:
+        name: postgresql
+        enabled: true
+        state: started
+
+    - name: Check PostgreSQL service
+      systemd:
+        name: postgresql
+      register: postgresql_status
+
+    - name: Display PostgreSQL status
+      debug:
+        msg: "PostgreSQL is {{ postgresql_status.status.ActiveState }}"
+
+    - name: Install AWS CLI prerequisites
+      apt:
+        name:
+          - curl
+          - unzip
+        state: present
+
+    - name: Download AWS CLI v2
+      get_url:
+        url: https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
+        dest: /tmp/awscliv2.zip
+        mode: '0644'
+
+    - name: Extract AWS CLI
+      unarchive:
+        src: /tmp/awscliv2.zip
+        dest: /tmp
+        remote_src: true
+        creates: /tmp/aws
+
+    - name: Install AWS CLI
+      command: /tmp/aws/install
+      args:
+        creates: /usr/local/bin/aws
+
+    - name: Configure AWS CLI region
+      become_user: "{{ ansible_user }}"
+      shell: |
+        mkdir -p ~/.aws
+        cat > ~/.aws/config <<EOF
+        [default]
+        region = {{ aws_region }}
+        output = json
+        EOF
